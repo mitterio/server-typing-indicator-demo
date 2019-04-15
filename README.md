@@ -1,15 +1,15 @@
-# Server for Running Timeline Events Demo
+# Server for Running Typing Indicator Demo
 
-This is a lightweight utility server to help you run the Timeline Events demo app for all platforms:
+This is a lightweight utility server to help you run the Typing Indicator demo app for all platforms:
 
-* Android - [https://github.com/mitterio/android-timeline-events-demo](https://github.com/mitterio/android-timeline-events-demo)
+* Android - [https://github.com/mitterio/android-typing-indicator-demo](https://github.com/mitterio/android-typing-indicator-demo)
 
 ## How to setup?
 
 Download a copy of this server by doing a git clone:
 
 ```
-git clone https://github.com/mitterio/server-timeline-events-demo.git
+git clone https://github.com/mitterio/server-typing-indicator-demo.git
 ```
 
 Before you can run this server, you need to create an application at [Mitter.io Cloud](https://dashboard.mitter.io) or your local instance of Mitter.io (if you're running the Mitter.io Docker container).
@@ -29,4 +29,4 @@ You can run this server simply by navigating to the project directory and runnin
 yarn run start
 ```
 
-On start, you'll get a channel ID printed to the console. Copy this ID and paste it inside the timeline events demo app.
+On start, you'll get a channel ID printed to the console. Copy this ID and paste it inside the typing indicator demo app.
